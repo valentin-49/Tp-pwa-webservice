@@ -1,0 +1,92 @@
+.App{
+  background-color: white;
+  color: white;
+}
+.appWrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.pageTitle{
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 100px;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,14,9,1) 60%, rgba(255,0,0,1) 100%);
+  color: white;
+  border-radius: 15px;
+}
+.imgBack{
+  display: flex;
+  flex-direction: row; 
+  left: 0;
+  width: 100vw;
+  background-image: url(./1214052.png);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  margin-top: 150px;
+}
+.content-wrap{
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+}
+.content-box{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.titleCard{
+  margin-top: 180px;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.card-box{
+  text-align: center;
+  height: 450px;
+  border-radius: 15px;
+  width: 350px;
+  padding: 25px;
+  max-width: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.55));
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 50px auto;
+}[name="card1"]{
+  background: url(./2022-Formula1-Audi-Show-Car-004.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+[name="card2"]{
+  background: url(./HD-wallpaper-redbull-verstappen-f1-max-verstappen-red-bull-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+[name="card3"]{
+  background: url(./wp5878204.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}.card-box:hover{
+  margin-top: -25px;
+  transition: 0.3s;
+}
