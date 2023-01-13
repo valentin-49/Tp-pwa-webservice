@@ -25,6 +25,7 @@ function Pilote() {
               <option>Lewis Hamilton</option>
               <option>Max verstappen</option>
               <option>Niki Lauda</option>
+              <option>Nicholas Latifi</option>
             </select>
           </div>
           <div className="driverdata">
@@ -69,6 +70,21 @@ function Pilote() {
                 <h4>Nationalité : Autrichienne</h4>
                 <h4>Titre : 3</h4>
                 <h4>Victoire : 25</h4>
+              </div>
+            </div>
+          </div>
+        }
+        {value === 'Nicholas Latifi' && 
+          <div className="driverCard">
+            <div className="driverinfo">
+              <h4>Nicholas Latifi (Le Goat)</h4>
+              <div className="driverPic">
+                  <img class="driverProfilePic" src="https://pbs.twimg.com/media/FenPLDbXoAEZd6R.jpg"></img>
+              </div>
+              <div className="driver">
+                <h4>Nationalité : Canadien</h4>
+                <h4>Titre : 0</h4>
+                <h4>Victoire : 0</h4>
               </div>
             </div>
           </div>

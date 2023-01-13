@@ -221,6 +221,33 @@ h4{
     font-size: 24px;
 }
 
+/*---- circuit ----*/
+
+.container_track{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.selectTrack{
+    margin: 0 auto;
+}
+.trackInfo{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 50px auto;
+}
+.trackImg{
+    width: 60%;
+}
+.trackData{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /*--------- Burger Menu header-----------*/
 
 .top-nav {
@@ -358,5 +385,13 @@ h4{
         scale: 0.8;
         width: 90%;
         text-align: center;
+    }
+    .trackInfo{
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .trackImg{
+        width: 100%;
     }
   }
