@@ -1,5 +1,4 @@
 .App{
-  background-color: white;
   color: white;
 }
 .appWrap{
@@ -11,7 +10,8 @@
   font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 72px;
   font-weight: 900;
-  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 120px;
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,14,9,1) 60%, rgba(255,0,0,1) 100%);
   color: white;
@@ -23,12 +23,13 @@
   left: 0;
   width: 100vw;
   background-image: url(./1214052.png);
-  height: 580px;
+  height: 520px;
+  width: 70%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
-  margin-top: 150px;
+  border-radius: 20px;
+  margin: 250px auto;
 }
 .content-wrap{
   flex-direction: column;
@@ -68,7 +69,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.55));
   transition: 0.3s;
   cursor: pointer;
-  margin: 50px auto;
+  margin: 15px auto;
 }[name="card1"]{
   background: url(./2022-Formula1-Audi-Show-Car-004.jpg);
   background-repeat: no-repeat;
@@ -86,7 +87,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-}.card-box:hover{
-  margin-top: -25px;
-  transition: 0.3s;
+}
+
+/*--------- responsivce --------------*/
+
+@media only screen and (max-width: 780px) {
+  .card-box{
+    width: 75%;
+  }
+  .pageTitle{
+    scale: 0.8;
+    font-size-adjust: 0.4;
+  }
 }

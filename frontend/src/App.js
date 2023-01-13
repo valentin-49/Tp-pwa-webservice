@@ -1,6 +1,14 @@
 import React from 'react';
 import './App.css';
 
+//COMMENTAIRE 
+/** 
+ * Les données du site devait provenir d'une API développer dans un autre cours 
+ * mais j'ai pas eu le temps de ternminer donc le site utilise des données en
+ * dur pour donner un visuelle de ce que cela aurais du étre avec des données 
+ * dynamique. 
+ */
+
 import {  useNavigate } from "react-router-dom";
 
 function App() {
@@ -23,14 +31,6 @@ function App() {
               <h2 className='titleCard'>WIKI</h2>
             </div>
           </div>
-        </div>
-      </div>
-      <div className='imgBack'>
-      </div>
-      <div className='content-wrap'>
-        <div className='content-box'>
-    
-
         </div>
       </div>
     </div>
