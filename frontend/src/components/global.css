@@ -80,7 +80,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
@@ -155,6 +156,70 @@ body{
     width: 10%;
 }
 
+/*--------- Page wiki -----------*/
+/*---- pilote ----*/
+
+.selectDriver{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+}
+.driverContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.driverCard{
+    width: 450px;
+    min-height: 500px;
+    height: fit-content;
+    background-color: #FFF;
+    border-radius: 15px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.driverinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.driverPic{
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.driverProfilePic{
+    width: 60%;
+    min-width: 150px;
+}
+.driver{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    line-height: 1.5;
+    align-items: center;
+}
+h4{
+    margin: 0;
+    font-size: 22px;
+}[name="driverName"]{
+    margin-top: 25px;
+    font-size: 24px;
+}
 
 /*--------- Burger Menu header-----------*/
 
@@ -281,5 +346,17 @@ body{
     }
     .leaderboradRow{
         scale: 0.8;
+    }
+    .driverdata{
+        width: 100%;
+    }
+    .driverCard{
+        width: 75%;
+        padding: 0px;
+    }
+    h4{
+        scale: 0.8;
+        width: 90%;
+        text-align: center;
     }
   }

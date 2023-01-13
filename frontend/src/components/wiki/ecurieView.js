@@ -6,9 +6,11 @@ import '../global.css';
 function Ecurie() {
 
     return (
-        <div>
-            <h1>Ecurie</h1>
-       </div>
+        <div className='Container-view'>
+            <div className="content-wrap">
+                <h1>WIKI ECURIE</h1>
+            </div>
+        </div>
      )  
 }
 

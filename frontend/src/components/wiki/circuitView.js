@@ -6,9 +6,11 @@ import '../global.css';
 function Circuit() {
 
     return (
-        <div>
-            <h1>circuit</h1>
-       </div>
+        <div className='Container-view'>
+            <div className="content-wrap">
+                <h1>WIKI CIRCUIT</h1>
+            </div>
+        </div>
      )  
 }
 
